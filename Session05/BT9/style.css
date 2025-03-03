@@ -1,0 +1,101 @@
+.container {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    color: #333;
+}
+
+.group {
+    display: flex;
+    gap: 15px;
+}
+
+.layer {
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.username-field {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.username-field span {
+    background-color: #e9ecef;
+    border-right: #ccc 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.username-field input {
+    border: none;
+    flex: 1;
+}
+
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-label input {
+    margin-right: 10px;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-label {
+    display: flex;
+}
+
+.radio-label input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.note-card {
+    margin-top: -1px;
+    font-size: 13px;
+}
+
+button {
+    background-color: #3366ff;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+}
+
