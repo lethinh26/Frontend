@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: darkgray 2px 1px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-color: #c0c0c0;
+}
+
+th, td {
+    border: 1px solid #c0c0c0;
+    padding: 8px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #EFEFEF;
+}
+
+.view {
+    background-color: #04AA6D;
+    padding: 8px;
+    border: none;
+    color: white;
+}
+
+.update {
+    background-color: yellow;
+    padding: 8px;
+    border: none;
+}
+
+.delete {
+    background-color: red;
+    padding: 8px;
+    border: none;
+    color: white;
+}

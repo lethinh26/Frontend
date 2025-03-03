@@ -1,0 +1,42 @@
+
+hr {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: gray;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    display: flex;
+    width: 45%;
+    gap: 15px;
+    border-right: 2px solid #ccc;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.article:nth-child(2n) {
+    padding-left: 10px;
+    border-right: none;
+}
+
+.date {
+    color: #746e88;
+}
+
+a {
+    text-decoration: none;
+    color: #1d1344;
+    font-weight: bold;
+}
+
