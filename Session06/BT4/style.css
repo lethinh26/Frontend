@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: #409343;
+    padding-top: 15px;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+}
+
+header nav {
+    padding: 15px;
+}
+
+header a {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #d1d1d1;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.content {
+    padding: 20px;
+    width: 80%;
+}
+
+.post {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

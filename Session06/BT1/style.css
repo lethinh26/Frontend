@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+body {
+    text-align: center;
+}
+.header {
+    background-color: #0067d6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #0067d6;
+    border-radius: 50%;
+}
+
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #cacaca;
+}
