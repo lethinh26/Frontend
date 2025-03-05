@@ -1,0 +1,22 @@
+.box {
+    width: 230px;
+    height: 150px;
+    padding: 15px 50px 15px 50px;
+    border: 2px solid #a2a2a2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.box .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b22222;
+}
+
+.box .content {
+    font-size: 16px;
+    color: #2e2a5d;
+    margin-top: 10px;
+}
+

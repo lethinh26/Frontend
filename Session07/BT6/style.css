@@ -1,0 +1,40 @@
+.label {
+    border: #bfc2c5 solid 1px;
+    border-radius: 10px;
+}
+
+.item {
+    border-bottom: #bfc2c5 solid 1px;
+}
+
+.item:last-of-type {
+    border: none;
+}
+
+.header{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerShow {
+    background: #e7f1ff;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #bfc2c5 solid 1px;
+}
+
+.content {
+    margin: 15px;
+}
+
+.content span {
+    color: #b52b70;
+}

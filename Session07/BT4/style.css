@@ -1,0 +1,32 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title .icon {
+    width: 5px;
+    height: 25px;
+    margin: 5px;
+    background-color: #d65112;
+}
+.title h2 {
+    opacity: 0.8;
+}
+
+.image img {
+    height: 400px;
+    width: 400px;
+}
+
+.image p {
+    position: absolute;
+    width: 350px;
+    left: 20px;
+    top: 400px;
+    color: white;
+    font-size: 20px;
+}
+
+hr {
+    opacity: 0.5;
+}
