@@ -1,0 +1,46 @@
+body {
+    font-family: "Roboto Light", "Arial", sans-serif;
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(to left, #453c52, #383352);
+}
+
+.box {
+    /*width: 600px;*/
+    display: flex;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #b3b2b8;
+}
+
+
+input{
+    background: linear-gradient(to left, #453c52, #383352);
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    background: linear-gradient(to left, #453c52, #383352);
+    width: 79%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.group {
+    margin-right: 30px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+}
+

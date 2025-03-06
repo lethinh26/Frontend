@@ -1,0 +1,45 @@
+body {
+    font-family: "Roboto Light", "Arial", sans-serif;
+    margin: 20px;
+}
+
+.underline {
+    margin-top: -10px;
+    width: 200px;
+    height: 2px;
+    background-color: #cf5959;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+
+td {
+    padding: 20px;
+    border-right: #babebf solid 1px;
+}
+
+td:last-of-type {
+    border-right: none;
+}
+
+.content p {
+    opacity: 0.6;
+    width: 300px;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    border: 2px solid #cf5959;
+    background-color: white;
+    color: #cf5959;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 18px;
+}

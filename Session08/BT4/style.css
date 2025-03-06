@@ -1,0 +1,70 @@
+body {
+    margin: 20px;
+}
+
+
+.underline {
+    margin-top: -10px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 2px;
+    background-color: #cf5959;
+}
+
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #c5c6c7;
+    rotate: 45deg;
+}
+
+.rectangle i {
+    font-size: 50px;
+    rotate: -45deg;
+    color: #cf5959;
+}
+
+
+.content {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.content p {
+    opacity: 0.7;
+}
+
+.label {
+    display: flex;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

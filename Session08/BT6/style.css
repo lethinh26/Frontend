@@ -1,0 +1,27 @@
+img {
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    background-color: #22252c;
+}
+
+.box {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0 10px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    border: none;
+    width: 400px;
+    padding: 10px;
+}
+
+
