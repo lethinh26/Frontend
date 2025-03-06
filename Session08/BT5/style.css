@@ -58,3 +58,8 @@ p {
 span {
     text-decoration: underline dotted #999999;
 }
+
+hr {
+    width: 40px;
+    margin: 30px auto;
+}
