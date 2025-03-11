@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Light", "Arial", sans-serif;
+}
+
+header {
+    background-color: #C0C0C0;
+    padding: 30px;
+}
+
+.box {
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title  {
+    font-family: 'Dancing Script', cursive;
+}
+
+nav a {
+    color: #959595;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+nav a:first-child {
+    color: black;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #767b85;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}

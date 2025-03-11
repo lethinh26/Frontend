@@ -1,0 +1,49 @@
+.box {
+    width: 50%;
+    height: 500px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #abaeb0;
+    border-radius: 5px;
+    color: #abaeb0;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.content img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.date {
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.description {
+    opacity: 0.9;
+    text-align: justify;
+}

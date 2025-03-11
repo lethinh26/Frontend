@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/7b988689d5.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .box {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        width: 400px;
+    }
+    .head{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .head span {
+        font-weight: bold;
+    }
+
+    .text, i {
+        opacity: 0.8;
+    }
+
+    .body{
+        padding: 15px;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input, textarea{
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 90%;
+    }
+
+    .bot{
+        text-align: right;
+        padding: 15px;
+        color: white;
+    }
+    input[type=button] {
+        color: white;
+        border: none;
+    }
+    .but1{
+        background-color: gray;
+        width: 60px;
+    }
+    .but2{
+        background-color: rgb(61, 47, 250);
+        width: 130px;
+    }
+</style>
+<body>
+<div class="box">
+  <div class="head">
+        <span>
+            New message to @mdo</span><i class="fa-solid fa-x"></i>
+  </div>
+  <div class="body">
+    <label class="text">Recipient:</label><br>
+    <input type="text" value="@mdo"><br>
+    <br>
+    <label class="text">Message:</label><br>
+    <textarea rows="3"></textarea>
+  </div>
+  <div class="bot">
+    <input type="button" class="but1" value="Closed">
+    <input type="button" class="but2" value="Send message">
+  </div>
+</div>
+</body>
+</html>

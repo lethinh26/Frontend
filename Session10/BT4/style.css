@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #cec1af;
+    font-family: "Roboto Light", "Arial", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    margin: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+img {
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: -10px 5px 0 whitesmoke;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    background-color: #d65454;
+    color: white;
+    border-radius: 3px;
+
+}

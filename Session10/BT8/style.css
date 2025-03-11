@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Light", "Arial", sans-serif;
+}
+
+body {
+    margin: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 200px;
+}
+
+.nav-normal a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.epaper {
+    text-decoration: none;
+    color: #0a66d6;
+}
+body {
+    width: calc(100% - 50px);
+}
+
+main {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.main-new {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image h1 {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    bottom: -10%;
+    left: 10px;
+    font-size: 25px;
+}
+
+.main-new .content p {
+    margin: 50px 10px;
+}
+
+.top-story {
+    width: 25%;
+}
+
+.top-story .title {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.top-story .content {
+    font-size: 15px;
+}
+
+.top-story hr {
+    margin: 10px 0;
+}
+
+.quick-bite {
+    width: 25%;
+}
+
+
+.box {
+    background-color: #d0d0d0;
+    border-radius: 10px;
+}
+
+.box .content {
+    padding: 20px;
+}
+
+.next {
+    text-align: right;
+}
+
+.next a {
+    text-decoration: none;
+    color: #0a66d6;
+    font-weight: bold;
+}
+
+.get-quick-bite h3 {
+    color: #0a66d6;
+}
+
+.get-quick-bite input {
+    border: none;
+    opacity: 0.5;
+}
+
+.get-quick-bite form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-quick-bite button {
+    border: none;
+    background-color: #0a66d6;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
