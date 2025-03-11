@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Light", "Arial", sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image img {
+    width: 60px;
+    border-radius: 5px;
+}
+
+.main-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.price {
+    font-size: 22px;
+    color: gray;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+}
+
+.rate i{
+    color: #d6aa0b;
+}
+
+.rate .hr {
+    color: gray;
+    height: 20px;
+    width: 1px;
+    background-color: gray;
+    margin: 0 10px;
+}
+
+.rate span {
+    font-size: 14px;
+    color: gray;
+}
+
+.size button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d1cac2;
+}
+
+.size .first {
+    background-color: #997726;
+}
+
+.color span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.purple {
+    background: #6b006b;
+}
+.black {
+    background: black;
+}
+.gold {
+    background: #d6b400;
+}
+
+.size p, .color p {
+    color: gray;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
+.quantity button {
+    border: none;
+    background: none;
+}
+
+.cart button {
+    padding: 15px 15px;
+    margin-right: 15px;
+}
+
+.add-to-cart, .compare {
+    color: black;
+    padding: 10px 15px;
+    background: none;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+
+.group {
+    display: flex;
+    gap: 15px;
+}
+
+.info p {
+    margin: 5px;
+    font-size: 16px;
+    display: flex;
+    color: gray;
+}
+
+.info span {
+    width: 100px;
+    text-align: left;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 5px;
+}
