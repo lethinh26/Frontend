@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    width: 70%;
+    background-color: #cecec9;
+    padding: 20px;
+    box-shadow: black 1px 1px 5px;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.large {
+    background-color: #659e9f;
+    width: 100%;
+    height: 50px;
+}
+
+.medium {
+    width: calc(50% - 10px);
+    height: 100px;
+}
+
+.small {
+    width: calc(33.33% - 10px);
+    height: 100px;
+}
+
+.red {
+    background-color: #c54d3c;
+}
+
+.yellow {
+    background-color: #cf9637;
+}
+
+.black {
+    background-color: #0f2e4a;
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .large, .medium, .small {
+        width: 100%;
+    }
+}
+
