@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-introduce, .page-post, .page-feature {
+    padding: 50px 100px 50px 100px;
+}
+
+header {
+    padding: 40px 40px 0 0;
+}
+
+header .menu {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Heebo, sans-serif;
+}
+
+.page-introduce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-introduce .content p{
+    margin: 20px 30% 20px 0;
+}
+
+.page-introduce img {
+    box-shadow: -10px 10px 0 #EDF7FA;
+    border-radius: 50%;
+}
+
+.page-introduce button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #FF6464;
+    color: white;
+}
+
+.page-post {
+    background-color: #EDF7FA;
+}
+
+.page-post .header-post {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.page-post .header-post a {
+    text-decoration: none;
+}
+.page-post .post {
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.page-post .box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.page-post .group {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.page-feature .header-feature{
+    font-size: 20px;
+}
+
+.page-feature .box {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.page-feature .group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.page-feature .year {
+    padding: 2px 8px;
+    background-color: #142850;
+    color: white;
+    border-radius: 16px ;
+}
+
+.page-feature .group span {
+    color: #8695A4;
+}
+
+.page-feature hr {
+    border-top: 1px solid #E0E0E0;
+}
+
+.page-feature .hr {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .app {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .page-introduce, .page-post, .page-feature {
+        padding: 20px 0;
+    }
+    header nav a{
+        display: none;
+    }
+
+    header nav .menu {
+        display: block;
+        font-size: 20px;
+    }
+
+    .page-introduce {
+        display: grid;
+        text-align: center;
+    }
+
+    .page-introduce .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-introduce .content p{
+        margin: 20px 0;
+    }
+
+    .page-introduce .image {
+        order: -1;
+    }
+
+    .page-post .header-post {
+        display: block;
+        text-align: center;
+    }
+
+    .page-post .header-post a{
+        display: none;
+    }
+
+    .page-post .post {
+        display: block;
+    }
+
+    .page-post .box {
+        margin: 10px;
+    }
+
+
+    .page-feature .header-feature{
+        text-align: center;
+    }
+
+
+    .feature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-feature .box {
+        display: block;
+        text-align: center;
+
+    }
+
+    .page-feature .box {
+        width: 50%;
+        text-align: justify;
+    }
+
+
+    .page-feature hr {
+        display: none;
+    }
+
+    .page-feature .hr{
+        display: block;
+        margin: 0 50px;
+    }
+
+    .page-feature .box:not(:first-of-type) {
+        display: none;
+    }
+}
+
