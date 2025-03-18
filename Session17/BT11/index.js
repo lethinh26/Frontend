@@ -8,6 +8,4 @@ document.writeln(Math.floor(5.7)) // Làm tròn xuống
 document.writeln(Math.floor(6.1)) // làm tròn xuống
 
 document.writeln(Math.round(10.1)) // Làm tròn theo giá trị gần nhất
-
-
- // Làm tròn xuống
+document.writeln(Math.round(20.6)) // Làm tròn theo giá trị gần nhất
