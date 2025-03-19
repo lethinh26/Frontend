@@ -7,9 +7,13 @@ if (hour > 23 || hour < 0 || minute > 59 || minute < 0 || second > 59 || second 
   alert("Thời gian không hợp lệ");
 } else {
   if (hour <= 12) {
-    if (hour < 10) {
+    if (hour === 0) {
+      hour += 12;
+    }else if (hour < 10) {
       hour = "0" + hour;
     }
+
+
     text = "AM";
   } else {
     hour -= 12;
@@ -25,6 +29,6 @@ if (hour > 23 || hour < 0 || minute > 59 || minute < 0 || second > 59 || second 
   if (second < 10) {
     second = "0" + second;
   }
+  alert(`${hour}:${minute}:${second} ${text}`)
 }
 
-alert(`${hour}:${minute}:${second} ${text}`)

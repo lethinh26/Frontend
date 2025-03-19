@@ -1,5 +1,9 @@
 let num = Number(prompt("Nhập số"))
 
+if (isNaN(num)) {
+  alert("Phải là số");
+}
+
 switch (num) {
   case 0: {
     alert("Số Không")

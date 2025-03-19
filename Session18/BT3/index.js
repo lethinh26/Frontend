@@ -4,10 +4,10 @@ let pass = prompt("Nhập mật khẩu")
 if (name === "ADMIN") {
   if (pass === "TheMaster") {
     alert("Welcome!")
-  } else if (pass === null || pass === "") {
+  } else if (pass === "") {
     alert("Canceled")
   }
-}else if (name === null || name === "") {
+}else if (name === "") {
   alert("Canceled")
 }else {
   alert("I don't know you")
