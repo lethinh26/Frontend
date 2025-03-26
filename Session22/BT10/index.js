@@ -1,9 +1,8 @@
 let array = [];
-let current = array.length;
 
 while (true) {
-  let choice =  Number(prompt(
-    `\t Menu
+  let choice = Number(prompt(
+    `Menu
   1. Nhập vào mảng
   2. Hiển thị mảng
   3. Thêm vào mảng
@@ -12,35 +11,71 @@ while (true) {
   6. Thoát
   
   Nhập lựa chọn của bạn:`
-  ))
+  ));
 
+  if (choice === 6) {
+    alert("Thoát chương trình");
+    break;
+  }
 
   switch (choice) {
     case 1: {
-      array[length] = prompt("Nhập vào mảng");
-      alert("Nhập thành công");
-      break;
-    }
-    case 2: {
-      alert(array);
-      break;
-    }
-    case 3: {
-      array[length] = prompt("Thêm vào mảng");
+      let value = prompt("Nhập phần tử vào mảng");
+      array.push(value);
       alert("Thêm thành công");
       break;
     }
+    case 2: {
+      if (array.length === 0) {
+        alert("Mảng rỗng");
+      } else {
+        alert(array);
+      }
+      break;
+    }
+    case 3: {
+      let value = prompt("Nhập phần tử cần thêm");
+      let pos = Number(prompt("Nhập vị trí cần thêm"));
+
+      if (pos >= 0 && pos <= array.length) {
+        array.splice(pos, 0, value);
+        alert("Thêm thành công");
+      } else {
+        alert("Vị trí không hợp lệ");
+      }
+      break;
+    }
     case 4: {
-      let pos = prompt("Nhập vị trí muốn sửa");
-      array[pos] = prompt("Nhập giá trị mới");
-      alert("Sửa thành công");
+      if (array.length === 0) {
+        alert("Mảng rỗng");
+        break;
+      }
+      let pos = Number(prompt("Nhập vị trí muốn sửa"));
+
+      if (pos >= 0 && pos < array.length) {
+        array[pos] = prompt("Nhập giá trị mới");
+        alert("Sửa thành công");
+      } else {
+        alert("Vị trí không hợp lệ");
+      }
       break;
     }
     case 5: {
-      let pos = prompt("Nhập vị trí muốn xóa");
-      array.slice(pos, pos);
-    }
+      if (array.length === 0) {
+        alert("Mảng rỗng");
+        break;
+      }
+      let pos = Number(prompt("Nhập vị trí cần xóa"));
 
+      if (pos >= 0 && pos < array.length) {
+        array.splice(pos, 1);
+        alert("Xóa thành công");
+      } else {
+        alert("Vị trí không hợp lệ");
+      }
+      break;
+    }
+    default:
+      alert("Lựa chọn không hợp lệ");
   }
 }
-
