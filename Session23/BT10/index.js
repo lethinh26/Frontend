@@ -37,7 +37,7 @@ Lựa chọn của bạn`
       } else {
         let even = array.filter(x => x % 2 === 0);
         let sum = even.reduce((a, b) => a + b, 0);
-        alert("Các số chẵn: " + even.join(", ") + "\nTổng: " + sum);
+        alert("Các số chẵn: " + even + "\nTổng: " + sum);
       }
       break;
     case 4:
@@ -50,12 +50,12 @@ Lựa chọn của bạn`
       }
       break;
     case 5:
-      if (arr.length === 0) {
+      if (array.length === 0) {
         alert("Mảng đang rỗng! Vui lòng nhập dữ liệu trước.");
       } else {
         let res = [];
         let sum = 0;
-        for (let num of arr) {
+        for (let num of array) {
           let check = true;
           if (num < 2) {
             check = false;
@@ -99,13 +99,13 @@ Lựa chọn của bạn`
       }
       break;
     case 8:
-      if (arr.length === 0) {
+      if (array.length === 0) {
         alert("Mảng rỗng");
       } else {
         let value = parseInt(prompt("Nhập giá trị cần xóa"));
-        let index = arr.indexOf(value);
+        let index = array.indexOf(value);
         if (index !== -1) {
-          arr.splice(index, 1);
+          array.splice(index, 1);
           alert("Xóa thành công");
         } else {
           alert("Ko có giá trị này trong mảng");
@@ -113,14 +113,14 @@ Lựa chọn của bạn`
       }
       break;
     case 9:
-      if (arr.length === 0) {
+      if (array.length === 0) {
         alert("Mảng rỗng");
       } else {
-        let choiceSort = parseInt(prompt("Nhập 1 để sắp xếp tăng dần, 2 để sắp xếp giảm dần: "));
+        let choiceSort = Number(prompt("Nhập 1 để sắp xếp tăng dần, 2 để sắp xếp giảm dần: "));
         if (choiceSort === 1) {
-          arr.sort((a, b) => a - b);
+          array.sort((a, b) => a - b);
         } else if (choiceSort === 2) {
-          arr.sort((a, b) => b - a);
+          array.sort((a, b) => b - a);
         } else {
           alert("Lựa chọn không hợp lệ");
         }

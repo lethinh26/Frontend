@@ -37,7 +37,7 @@ Lựa chọn của bạn`
       } else {
         let even = array.filter(x => x % 2 === 0);
         let sum = even.reduce((a, b) => a + b, 0);
-        alert("Các số chẵn: " + even.join(", ") + "\nTổng: " + sum);
+        alert("Các số chẵn: " + even + "\nTổng: " + sum);
       }
       break;
     case 4:
@@ -50,12 +50,12 @@ Lựa chọn của bạn`
       }
       break;
     case 5:
-      if (arr.length === 0) {
+      if (array.length === 0) {
         alert("Mảng đang rỗng! Vui lòng nhập dữ liệu trước.");
       } else {
         let res = [];
         let sum = 0;
-        for (let num of arr) {
+        for (let num of array) {
           let check = true;
           if (num < 2) {
             check = false;
