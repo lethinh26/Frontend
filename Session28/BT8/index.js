@@ -13,7 +13,7 @@ function showMenu() {
 }
 
 function checkNumber(number, prompt) {
-  if (isNaN(number)) {
+  if (isNaN(number) || number === "" || number === " ") {
     return `${prompt} ko hợp lệ`;
   }
   return true;

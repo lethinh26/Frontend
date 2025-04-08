@@ -1,0 +1,27 @@
+#modal {
+    display: none;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.close {
+    display: flex;
+    justify-content: right;
+    padding: 5px 10px;
+}
+
+#btnClose {
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+p {
+    padding: 10px 10px;
+}
+
+
+
