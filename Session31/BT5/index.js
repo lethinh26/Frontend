@@ -41,3 +41,5 @@ employee.forEach(employee => {
 <td>${employee.address}</td>`;
   table.append(row);
 })
+
+employee.name

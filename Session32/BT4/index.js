@@ -19,4 +19,6 @@ btn.addEventListener("click", function(e) {
     feedback.classList.add("invalid-feedback");
     feedback.innerText = "Email không hợp lệ";
   }
+
+
 });

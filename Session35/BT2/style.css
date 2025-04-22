@@ -1,0 +1,14 @@
+body, #headerModal, #addBookMark {
+    background-color: #684b94;
+}
+
+label {
+    font-weight: bold;
+    color: #684b94;
+}
+
+h2 {
+    color: white;
+}
+
+

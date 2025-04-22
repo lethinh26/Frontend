@@ -1,0 +1,1 @@
+location.href = "./auth/login_page.html"
